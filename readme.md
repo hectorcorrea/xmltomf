@@ -26,4 +26,4 @@ Outputs something along the lines of:
 ```
 
 # Download
-Download the executable for your operating system from:
+Download the executable for your operating system from: https://github.com/hectorcorrea/xmltomf/releases
