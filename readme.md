@@ -27,3 +27,15 @@ Outputs something along the lines of:
 
 # Download
 Download the executable for your operating system from: https://github.com/hectorcorrea/xmltomf/releases
+
+
+# MediaFlux native method
+
+It looks like Mediaflux can do this natively via the `xtoshell` command:
+
+```
+> set xml "<result><tigerdataX:resourceDoc xmlns:tigerdataX=\"tigerdataX\" id=\"2\"></tigerdataX:resourceDoc></result>"
+> set doc [xtoshell $xml]
+> puts $doc
+:tigerdataX:resourceDoc -xmlns:tigerdataX "tigerdataX" -id "2"
+```
